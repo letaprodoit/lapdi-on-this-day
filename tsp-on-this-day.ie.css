@@ -1,0 +1,223 @@
+/* Widget: TSP On This Day */
+#tspotd_article {
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+#tspotd_article #article_about {
+	padding-bottom: 10px;
+}
+
+/* Image Formatting */
+#tspotd_article img,
+#tspotd_article object,
+#tspotd_article code {
+	float: left;
+	clear: left;
+	margin-right: 10px;
+}
+
+
+#tspotd_article.layout1 img,
+#tspotd_article.layout1 object,
+#tspotd_article.layout1 code {
+	margin-bottom: 10px;
+}
+
+
+#tspotd_article #left img,
+#tspotd_article #left object,
+#tspotd_article #left code {
+	max-width: 98%;
+	max-height: 98%
+}
+/* #Image Formatting */
+
+#tspotd_article #top,
+#tspotd_article #bottom,
+#tspotd_article #full {
+	position: relative;
+	width: 100%;
+	text-align: left;
+}
+
+#tspotd_article #left,
+#tspotd_article #right {
+	position: relative;
+	text-align: left;
+	float: left;
+}
+
+/* Make total less than 100% */
+#tspotd_article #left {
+    padding-right: 2px;
+}
+
+#tspotd_article #right {
+    float: right;
+    width: 55%;
+}
+
+#tspotd_article #clear {
+	clear: both;
+}
+
+/* Layout 1 */
+#tspotd_article.layout1 #left {
+	width: 90%;
+}
+
+#tspotd_article.layout1 #right {
+	width: 8%
+}
+/* #Layout 1 */
+
+/* Layout 2 */
+#tspotd_article .comments-link {
+	position: relative;
+	float: right;
+	text-align: right;
+	height: 30px;
+	padding-bottom: 5px;
+}
+
+
+#tspotd_article.layout2 .entry-other,
+#tspotd_article.layout4 .entry-other {
+	position: relative;
+	width: 100%;
+	text-align: right;
+	height: 25px;
+	padding-bottom: 10px;
+}
+#tspotd_article.layout2 #left {
+	width: 45%;
+}
+#tspotd_article.layout2 #right {
+	width: 54%;
+}
+/* #Layout 2 */
+
+/* Layout 4 */
+#tspotd_article.layout4 #left {
+	width: 25%;
+}
+#tspotd_article.layout4 #right {
+	width: 74%;
+}
+#postSliderWrapper article{
+	border-bottom: none;
+}
+#tspotd_article.layout4 .entry-header .comments-link{
+	margin-top: 0px;
+}
+/* #Layout 4 */
+
+
+#tspotd_article #top .entry-title, 
+#tspotd_article #top .entry-quote,
+#tspotd_article #left .entry-title, 
+#tspotd_article #left .entry-quote {
+	padding-bottom: 10px;
+}
+
+#tspotd_article .entry-title,
+#tspotd_article .entry-title a {
+	font-weight: bold;
+}
+
+#tspotd_article .entry-quote,
+#tspotd_article .entry-quote a {
+	font-style: italic;
+}
+
+#tspotd_article .entry-summary,
+#tspotd_article .entry-content {
+	line-height: 18px;
+}
+
+#tspotd_article .entry-summary,
+#tspotd_article .entry-summary p {
+	padding-bottom: 5px;
+	vertical-align: top;
+}
+
+#tspotd_article .entry-content {
+	padding-bottom: 30px;
+}
+
+#tspotd_article .entry-format {
+	position: relative;	
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 5px 0px -10px 0px;
+	line-height: 2.6em;
+}
+
+/* Moving Boxes demo CSS */
+* {
+  /*margin: 0;
+  padding: 0;*/
+}
+
+body {
+  /*font: 11px Helvetica, Arial, sans-serif;*/
+}
+
+
+#postSliderWrapper {
+	overflow: hidden;
+	margin-left: -50px;
+}
+
+/* Moving Boxes title image wrapper */
+#postSlider #title {
+  /*text-align: center;*/
+}
+#postSlider #title img {
+  border: 0;
+}
+
+/* panel images */
+#postSlider .mb-inside img {
+  /*width: 100%;*/
+}
+
+
+#postSlider .current img {
+  /* height of the placeholder until image completely loads - needed for
+     webkit browsers, add this only if you don't want the height animation
+     on startup.
+
+     326px measures the height of the current image when enlarged 
+
+  height: 326px;
+
+  */
+}
+
+/* panel links */
+#postSlider .mb-inside a {
+  /*color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #ccc;*/
+}
+
+#postSlider .mb-inside a:hover {
+  /*border-bottom: 1px solid #999;*/
+}
+
+/* Add/remove panels buttons */
+#postSlider .buttons {
+  /*padding: 5px 10px;
+  text-align: center;*/
+}
+
+/* direct link styling */
+#postSlider .dlinks {
+  /*text-align: center;
+  font-size: 20px;*/
+}
