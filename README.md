@@ -1,6 +1,6 @@
 On This Day for WordPress
 -------
-On This Day allows you to view blog posts with the same month and day in history on your blog's website (similar to Facebook's new "On This Day" App) via widget or on pages and posts using shortcodes. On This Day has five (5) layouts and can include thumbnails, post gallery and quotes.
+On This Day allows you to view blog posts with the same month and day in history on your blog's website (similar to Facebook's "On This Day" App) via widget or on pages and posts using shortcodes. On This Day has five (5) layouts and can include thumbnails, post gallery and quotes.
 
 For up-to-date installation and setup notes, visit the FAQ:
 [http://lab.thesoftwarepeople.com/tracker/wiki/wordpress-otd:MainPage](http://lab.thesoftwarepeople.com/tracker/wiki/wordpress-otd:MainPage)

@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: Apache v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 
-On This Day allows you to view blog posts with the same month and day in history on your website (similar to Facebook's new "On This Day" App).
+On This Day allows you to view blog posts with the same month and day in history on your blog (similar to Facebook's "On This Day" app).
 
 == Description ==
 
