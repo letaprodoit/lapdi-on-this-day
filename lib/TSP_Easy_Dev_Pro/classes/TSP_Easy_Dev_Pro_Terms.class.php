@@ -8,7 +8,7 @@ if ( !class_exists( 'TSP_Easy_Dev_Pro_Terms' ) )
 	 * @author 		Sharron Denice, The Software People
 	 * @copyright 	2013 The Software People
 	 * @license 	APACHE v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-	 * @version 	1.0
+	 * @version 	1.0.1
 	 */
 	final class TSP_Easy_Dev_Pro_Terms
 	{
@@ -150,7 +150,7 @@ if ( !class_exists( 'TSP_Easy_Dev_Pro_Terms' ) )
 				
 				$all_term_data[$term_ID] = $terms_data[$term_ID];
 				
-				update_option( $this->options->get_value('term-data-option-name'), $all_term_data );
+				update_option( $this->options->get_value('term-data-option-name'), $all_term_data, 'yes' );
 		    }//end if
 		}//end modify_term_data
 	

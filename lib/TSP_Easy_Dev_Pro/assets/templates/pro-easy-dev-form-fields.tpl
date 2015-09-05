@@ -27,6 +27,13 @@
 	   <input class="{$class}" id="{$field.id}" name="{$field.name}" value="{$field.value}" />
 	{elseif $field.type == 'TEXTAREA'}
 	   <textarea class="{$class}" id="{$field.id}" name="{$field.name}">{$field.value}</textarea>
+	{elseif $field.type == 'CHECKBOX'}
+		{foreach $field.options as $okey => $ovalue}
+            {if $okey > 0}
+                <label for="{$field.id}">&nbsp;</label>
+            {/if}
+	   		<input type="checkbox" class="level-0" id="{$field.id}[]" name="{$field.name}[]" value="{$ovalue}" {if $field.value|is_array && $ovalue|in_array:$field.value}checked{/if}>{$ovalue}<br/>
+		{/foreach}
 	{elseif $field.type == 'SELECT'}
 	   <select class="{$class}" id="{$field.id}" name="{$field.name}" >
 	   		{foreach $field.options as $okey => $ovalue}

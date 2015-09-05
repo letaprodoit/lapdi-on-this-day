@@ -8,7 +8,7 @@ if ( !class_exists( 'TSP_Easy_Dev_Pro_Options' ) )
 	 * @author 		Sharron Denice, The Software People
 	 * @copyright 	2013 The Software People
 	 * @license 	APACHE v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-	 * @version 	1.0
+	 * @version 	1.0.1
 	 */
 	abstract class TSP_Easy_Dev_Pro_Options extends TSP_Easy_Dev_Options
 	{
@@ -107,11 +107,11 @@ if ( !class_exists( 'TSP_Easy_Dev_Pro_Options' ) )
 				if (!empty ( $database_post_fields ) )
 				{
 					$default_post_fields = array_merge( $default_post_fields, $database_post_fields);
-					update_option( $this->get_value('post-fields-option-name'), $default_post_fields );
+					update_option( $this->get_value('post-fields-option-name'), $default_post_fields, 'yes' );
 				}//end if
 				else
 				{
-					add_option( $this->get_value('post-fields-option-name'), $default_post_fields );
+					add_option( $this->get_value('post-fields-option-name'), $default_post_fields, '', 'yes' );
 				}//end else
 			}//end if
 
@@ -123,11 +123,11 @@ if ( !class_exists( 'TSP_Easy_Dev_Pro_Options' ) )
 				if (!empty ( $database_term_fields ) )
 				{
 					$default_term_fields = array_merge( $default_term_fields, $database_term_fields);
-					update_option( $this->get_value('term-fields-option-name'), $default_term_fields );
+					update_option( $this->get_value('term-fields-option-name'), $default_term_fields, 'yes' );
 				}//end if
 				else
 				{
-					add_option( $this->get_value('term-fields-option-name'), $default_term_fields );
+					add_option( $this->get_value('term-fields-option-name'), $default_term_fields, '', 'yes' );
 				}//end else
 			}//end if
 
@@ -135,7 +135,7 @@ if ( !class_exists( 'TSP_Easy_Dev_Pro_Options' ) )
 			// ONLY overwrite the user data if none is stored
 			if( $this->has_term_options && !get_option( $this->get_value('term-data-option-name') ) ) 
 			{
-				add_option( $this->get_value('term-data-option-name'), null );
+				add_option( $this->get_value('term-data-option-name'), null, '', 'yes' );
 			}//end if
 		}//end register_options
 		

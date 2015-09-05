@@ -258,7 +258,13 @@ class TSP_Easy_Dev_Widget_On_This_Day extends TSP_Easy_Dev_Widget
 		global $post;
 		
 		$current_post_id = $post->ID;
+		
 		$date = get_the_date( 'm-d', $current_post_id );
+		
+		// If we are displaying posts for the current date
+		if ($display_type == 0)
+			$date = date( 'm-d' );
+		
 		list($month, $day) = preg_split("/\-/", $date);
 			    
 		$args = array(

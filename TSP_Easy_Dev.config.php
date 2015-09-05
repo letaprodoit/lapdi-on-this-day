@@ -45,13 +45,6 @@ $easy_dev_settings['plugin_list']			= 'http://www.thesoftwarepeople.com/plugins/
 //* Custom globals *//
 
 $easy_dev_settings['plugin_options']		= array(
-	'post_fields'						=> array(		
-		'quote' 		=> array( 
-			'type' 			=> 'TEXTAREA', 
-			'label' 		=> 'Intro Post Quote?', 
-			'value' 		=> ''
-		),
-	),
 	'widget_fields'						=> array(		
 		'title' 		=> array( 
 			'type' 			=> 'INPUT', 
@@ -98,6 +91,12 @@ $easy_dev_settings['plugin_options']		= array(
 			'label' 		=> 'Display Publish Date?', 
 			'value' 		=> 'N',
 			'options'		=> array ('Yes' => 'Y', 'No' => 'N'),
+		),		
+		'display_type' 	=> array( 
+			'type' 			=> 'SELECT', 
+			'label' 		=> 'Posts to display', 
+			'value' 		=> '0',
+			'options'		=> array ('Posts on the current day and month' => 0, 'Posts on the day and month of the current post' => 1),
 		),		
 		'show_quotes' 	=> array( 
 			'type' 			=> 'SELECT', 
