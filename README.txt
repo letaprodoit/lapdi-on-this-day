@@ -4,7 +4,7 @@ Donate link: http://www.thesoftwarepeople.com/software/plugins/wordpress/on-this
 Tags: on this day display gallery slider jquery moving boxes the software people
 Requires at least: 3.5.1
 Tested up to: 4.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: Apache v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 
@@ -47,6 +47,9 @@ BEFORE YOU BEGIN: Requires the installation and activation of [TSP Easy Dev Late
 
 == Changelog ==
 
+= 1.0.3 =
+* Bug fix. Set PHP timezone to wordpress timezone.
+
 = 1.0.2 =
 * Bug fix. Fixed bug that stopped blog posts from loading
 
@@ -57,6 +60,9 @@ BEFORE YOU BEGIN: Requires the installation and activation of [TSP Easy Dev Late
 * Launch
 
 == Upgrade notice ==
+
+= 1.0.3 =
+Bug fix. Set PHP timezone to wordpress timezone.
 
 = 1.0.2 =
 Bug fix. Fixed bug that stopped blog posts from loading
