@@ -3,7 +3,7 @@ Contributors: thesoftwarepeople,sharrondenice
 Donate link: http://www.thesoftwarepeople.com/software/plugins/wordpress/on-this-day-for-wordpress.html
 Tags: on this day display gallery slider jquery moving boxes the software people
 Requires at least: 3.5.1
-Tested up to: 4.3
+Tested up to: 4.4.1
 Stable tag: 1.0.3
 License: Apache v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
