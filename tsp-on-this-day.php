@@ -3,7 +3,7 @@
 Plugin Name: TSP On This Day
 Plugin URI:  http://www.thesoftwarepeople.com/software/plugins/wordpress/on-this-day-for-wordpress.html
 Description: On This Day allows you to <strong>view blog posts with the same month and day in history</strong> on your website. Powered by <strong><a href="http://wordpress.org/plugins/tsp-easy-dev/">TSP Easy Dev</a></strong>.
-Version:     1.0.4
+Version:     1.0.5
 Author:      The Software People
 Author URI:  http://www.thesoftwarepeople.com/
 License:     APACHE v2.0
@@ -88,13 +88,17 @@ else
 	$on_this_day->add_css( TSPOTD_PLUGIN_URL . TSPOTD_PLUGIN_NAME . '.css' );
 }//endelse
 
-// Quueue User Scripts
+// Queue User Scripts
 $on_this_day->add_script( TSPOTD_PLUGIN_URL . 'js' . DS . 'jquery.movingboxes.js', array('jquery') );
 $on_this_day->add_script( TSPOTD_PLUGIN_URL . 'js' . DS . 'slider-scripts.js', array('jquery') );
 $on_this_day->add_script( TSPOTD_PLUGIN_URL . 'js' . DS . 'scripts.js',  array('jquery') );
 
-// Quueue Admin styles
-$on_this_day->add_css( TSPOTD_PLUGIN_URL . 'css' . DS. 'admin-style.css', true );
+// Queue Admin Scripts
+$on_this_day->add_script( TSP_EASY_DEV_ASSETS_JS_URL . 'admin-script.js',  array('jquery','jquery-ui-tabs'), true );
+
+// Queue Admin styles
+$on_this_day->add_css( TSP_EASY_DEV_ASSETS_CSS_URL . 'font-awesome.min.css', true );
+$on_this_day->add_css( TSP_EASY_DEV_ASSETS_CSS_URL . 'admin-style.css', true );
 $on_this_day->add_css( TSP_EASY_DEV_ASSETS_CSS_URL . 'style.css', true );
 
 $on_this_day->set_plugin_icon( TSPOTD_PLUGIN_URL . 'images' . DS . 'tsp_icon_16.png' );
