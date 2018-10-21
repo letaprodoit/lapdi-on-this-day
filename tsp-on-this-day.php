@@ -3,7 +3,7 @@
     Plugin Name: LAPDI On This Day
     Plugin URI:  https://www.letaprodoit.com/apps/plugins/wordpress/on-this-day-for-wordpress
     Description: On This Day allows you to <strong>view blog posts with the same month and day in history</strong> on your website. Powered by <strong><a href="http://wordpress.org/plugins/tsp-easy-dev/">LAPDI Easy Dev</a></strong>.
-    Version:     1.0.5
+    Version:     1.0.6
     Author:      Let A Pro Do IT!
     Author URI:  http://www.letaprodoit.com/
     License:     APACHE v2.0
@@ -80,8 +80,6 @@
 
     // Initialize widget - Required by WordPress
     add_action('widgets_init', function () {
-        global $facepile;
-
         global $on_this_day;
 
         register_widget ( $on_this_day->get_widget_handler() );

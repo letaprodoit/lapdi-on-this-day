@@ -59,7 +59,7 @@
 
             global $on_this_day;
 
-            $smarty->assign( 'plugin_title',			preg_replace("/TSP|LAPDI/","",TSPOTD_PLUGIN_TITLE));
+	    $smarty->assign( 'plugin_title',			TSPOTD_PLUGIN_TITLE);
             $smarty->assign( 'plugin_links',			implode(' | ', $on_this_day->get_meta_links()));
             $smarty->assign( 'EASY_DEV_SETTINGS_UI',	$this->get_value('name') . '_child-page-instructions.tpl');
 

@@ -1,6 +1,6 @@
 === LAPDI On This Day ===
 Contributors: letaprodoit,sharrondenice
-Donate link: http://www.letaprodoit.com/software/plugins/wordpress/on-this-day-for-wordpress.html
+Donate link: https://www.letaprodoit.com/apps/plugins/wordpress/on-this-day-for-wordpress
 Tags: on this day display gallery slider jquery moving boxes the software people
 Requires at least: 3.5.1
 Tested up to: 5.0.0
@@ -54,7 +54,7 @@ BEFORE YOU BEGIN: Requires the installation and activation of [LAPDI Easy Dev La
 * Enhancement: Improved settings UI
 
 = 1.0.4 =
-* Enhancement: Using only LAPDI Easy Dev (Pro version no longer available.)
+* Enhancement: Using only TSP Easy Dev (Pro version no longer available.)
 
 = 1.0.3 =
 * Bug fix. Set PHP timezone to wordpress timezone.
@@ -77,7 +77,7 @@ Enhancement. Requires v2.0.0 of LAPDI Easy Dev
 Enhancement: Improved settings UI
 
 = 1.0.4 =
-Enhancement: Using only LAPDI Easy Dev (Pro version no longer available.)
+Enhancement: Using only TSP Easy Dev (Pro version no longer available.)
 
 = 1.0.3 =
 Bug fix. Set PHP timezone to wordpress timezone.
