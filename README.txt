@@ -1,10 +1,10 @@
-=== TSP On This Day ===
-Contributors: thesoftwarepeople,sharrondenice
-Donate link: http://www.thesoftwarepeople.com/software/plugins/wordpress/on-this-day-for-wordpress.html
+=== LAPDI On This Day ===
+Contributors: letaprodoit,sharrondenice
+Donate link: http://www.letaprodoit.com/software/plugins/wordpress/on-this-day-for-wordpress.html
 Tags: on this day display gallery slider jquery moving boxes the software people
 Requires at least: 3.5.1
-Tested up to: 4.4.2
-Stable tag: 1.0.5
+Tested up to: 5.0.0
+Stable tag: 1.0.6
 License: Apache v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 
@@ -23,16 +23,16 @@ Add `On This Day` to posts and pages by using a shortcode inside your text or ev
 
 == Installation ==
 
-BEFORE YOU BEGIN: Requires the installation and activation of [TSP Easy Dev Latest Version](http://wordpress.org/plugins/tsp-easy-dev)
+BEFORE YOU BEGIN: Requires the installation and activation of [LAPDI Easy Dev Latest Version](http://wordpress.org/plugins/tsp-easy-dev)
 
 1. Upload `tsp-on-this-day` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the `Plugins` menu in WordPress
-3. After installation, refer to the `TSP On This Day` settings page for more detailed instructions on setting up your shortcodes.
-4. `On This Day` widgets can be added to the sidemenu bar by visiting `Appearance > Widgets` and dragging the `TSP On This Day` widget to your sidebar menu.
+3. After installation, refer to the `LAPDI On This Day` settings page for more detailed instructions on setting up your shortcodes.
+4. `On This Day` widgets can be added to the sidemenu bar by visiting `Appearance > Widgets` and dragging the `LAPDI On This Day` widget to your sidebar menu.
 5. Add some widgets to the sidemenu bar, Add shortcodes to pages and posts (see Instructions)
 6. View your site
 7. Adjust your CSS for your theme by visiting `Appearance > Edit CSS`
-8. Adjust the `Sliding Gallery` settings, if necessary, by visiting `Plugins > Editor`, Select `TSP On This Day` and edit the `tsp-on-this-day.css` and `js/slider-scripts.js` files
+8. Adjust the `Sliding Gallery` settings, if necessary, by visiting `Plugins > Editor`, Select `LAPDI On This Day` and edit the `tsp-on-this-day.css` and `js/slider-scripts.js` files
 9. Manipulating the CSS for `#postSlider` and `#tspotd_article` entries changes the gallery and article styles respectfully
 
 == Frequently asked questions ==
@@ -47,11 +47,14 @@ BEFORE YOU BEGIN: Requires the installation and activation of [TSP Easy Dev Late
 
 == Changelog ==
 
+= 1.0.6 =
+* Enhancement. Requires v2.0.0 of LAPDI Easy Dev
+
 = 1.0.5 =
 * Enhancement: Improved settings UI
 
 = 1.0.4 =
-* Enhancement: Using only TSP Easy Dev (Pro version no longer available.)
+* Enhancement: Using only LAPDI Easy Dev (Pro version no longer available.)
 
 = 1.0.3 =
 * Bug fix. Set PHP timezone to wordpress timezone.
@@ -67,11 +70,14 @@ BEFORE YOU BEGIN: Requires the installation and activation of [TSP Easy Dev Late
 
 == Upgrade notice ==
 
+= 1.0.6 =
+Enhancement. Requires v2.0.0 of LAPDI Easy Dev
+
 = 1.0.5 =
 Enhancement: Improved settings UI
 
 = 1.0.4 =
-Enhancement: Using only TSP Easy Dev (Pro version no longer available.)
+Enhancement: Using only LAPDI Easy Dev (Pro version no longer available.)
 
 = 1.0.3 =
 Bug fix. Set PHP timezone to wordpress timezone.
