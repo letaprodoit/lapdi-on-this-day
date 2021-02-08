@@ -59,7 +59,7 @@
 
             global $on_this_day;
 
-	    $smarty->assign( 'plugin_title',			TSPOTD_PLUGIN_TITLE);
+	        $smarty->assign( 'plugin_title',			TSPOTD_PLUGIN_TITLE);
             $smarty->assign( 'plugin_links',			implode(' | ', $on_this_day->get_meta_links()));
             $smarty->assign( 'EASY_DEV_SETTINGS_UI',	$this->get_value('name') . '_child-page-instructions.tpl');
 
@@ -202,7 +202,7 @@
             $queried_posts = get_posts($args);
 
             $pro_post = $this->options->get_pro_post();
-
+            
             if (!empty ( $queried_posts ))
             {
                 $post_cnt = 0;
@@ -217,10 +217,12 @@
                     $publish_date = date( get_option('date_format'), strtotime( $this_post->post_date ) );
 
                     // get the first image or video
-                    $media = $pro_post->get_post_media ( $this_post, $fields['thumb_width'], $fields['thumb_height'] );
+                    if (!empty($pro_post))
+                        $media = $pro_post->get_post_media ( $this_post, $fields['thumb_width'], $fields['thumb_height'] );
 
                     // get the fields stored in the database for this post
-                    $post_fields = $pro_post->get_post_fields( $ID );
+                    if (!empty($pro_post))
+                        $post_fields = $pro_post->get_post_fields( $ID );
 
                     // determine if the link is external if so set target to blank window
                     // TODO: I don't like passing that entire post object by value

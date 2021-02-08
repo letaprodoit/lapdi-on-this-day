@@ -4,7 +4,7 @@ Donate link: https://letaprodoit.com/apps/plugins/wordpress/on-this-day-for-word
 Tags: on this day display gallery slider jquery moving boxes the software people
 Requires at least: 3.5.1
 Tested up to: 5.6.1
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: Apache v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 
@@ -46,6 +46,9 @@ BEFORE YOU BEGIN: Requires the installation and activation of [LAPDI Easy Dev La
 1. On This Day displayed on the front-end.
 
 == Changelog ==
+= 1.0.8 =
+* Bug fix. Fixed bug with posts not showing
+
 = 1.0.7 =
 * Bug fix. Null exception fix
 * Maintenance
@@ -72,6 +75,8 @@ BEFORE YOU BEGIN: Requires the installation and activation of [LAPDI Easy Dev La
 * Launch
 
 == Upgrade notice ==
+= 1.0.8 =
+* Bug fix. Fixed bug with posts not showing
 
 = 1.0.7 =
 * Bug fix. Null exception fix
