@@ -1,14 +1,17 @@
 <?php
     /*
     Plugin Name: LAPDI On This Day
-    Plugin URI:  https://letaprodoit.com/apps/plugins/wordpress/on-this-day-for-wordpress
+    Plugin URI:  https://wordpress.org/plugins/tsp-on-this-day/
     Description: On This Day allows you to <strong>view blog posts with the same month and day in history</strong> on your website. Powered by <strong><a href="http://wordpress.org/plugins/tsp-easy-dev/">LAPDI Easy Dev</a></strong>.
-    Version:     1.0.8
+    Version:     1.0.9
     Author:      Let A Pro Do IT!
     Author URI:  https://letaprodoit.com/
     License:     APACHE v2.0
     License URI: http://www.apache.org/licenses/LICENSE-2.0
     Text Domain: tspotd
+    Requires at least: 4.5
+    Requires PHP: 7.4
+    Tested up to: 7.0
     */
 
     require_once(ABSPATH . 'wp-admin/includes/plugin.php' );
@@ -19,7 +22,7 @@
     define('TSPOTD_PLUGIN_BASE_NAME', 			plugin_basename( __FILE__ ) );
     define('TSPOTD_PLUGIN_NAME', 				'tsp-on-this-day');
     define('TSPOTD_PLUGIN_TITLE', 				'On This Day');
-    define('TSPOTD_PLUGIN_REQ_VERSION', 		"3.5.1");
+    define('TSPOTD_PLUGIN_REQ_VERSION', 		"4.5");
 
     if (file_exists( WP_PLUGIN_DIR . "/tsp-easy-dev/tsp-easy-dev.php" ))
     {

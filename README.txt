@@ -2,9 +2,10 @@
 Contributors: letaprodoit,sharrondenice
 Donate link: https://letaprodoit.com/apps/plugins/wordpress/on-this-day-for-wordpress
 Tags: on this day display gallery slider jquery moving boxes the software people
-Requires at least: 3.5.1
-Tested up to: 5.6.1
-Stable tag: 1.0.8
+Requires at least: 4.5
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 1.0.9
 License: Apache v2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 
@@ -46,6 +47,9 @@ BEFORE YOU BEGIN: Requires the installation and activation of [LAPDI Easy Dev La
 1. On This Day displayed on the front-end.
 
 == Changelog ==
+= 1.0.9 =
+* Maintenance. Compatible with WordPress 7.0. Declares PHP 7.4 as the supported runtime floor.
+
 = 1.0.8 =
 * Bug fix. Fixed bug with posts not showing
 
@@ -75,6 +79,9 @@ BEFORE YOU BEGIN: Requires the installation and activation of [LAPDI Easy Dev La
 * Launch
 
 == Upgrade notice ==
+= 1.0.9 =
+* Maintenance. Compatible with WordPress 7.0. Declares PHP 7.4 as the supported runtime floor.
+
 = 1.0.8 =
 * Bug fix. Fixed bug with posts not showing
 
